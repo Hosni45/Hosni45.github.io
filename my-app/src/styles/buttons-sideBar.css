@@ -5,4 +5,11 @@ button{
     margin: 10px;
     border-radius: 10px;
     cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.212)
+}
+button:hover{
+    background-color: rgba(102, 97, 97, 0.616);
+    color: white;
+    border: 1px solid white;
+    transition: all 0.9s ease;
 }
